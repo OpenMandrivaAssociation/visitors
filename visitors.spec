@@ -10,7 +10,6 @@ BuildRequires:	db4-devel
 BuildRequires:	pcre-devel
 BuildRequires:	autoconf2.5
 BuildRequires:	libtool
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 visitors processes a web log file trying very hard to identify a single
