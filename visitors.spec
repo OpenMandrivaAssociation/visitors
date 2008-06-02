@@ -26,7 +26,7 @@ combination.
 
 %configure2_5x \
     --enable-database-name=%{name}.db \
-    --enable-database-dir=%{_localstatedir}/%{name}
+    --enable-database-dir=%{_localstatedir}/lib/%{name}
 	
 %make
 
@@ -35,7 +35,7 @@ rm -rf %{buildroot}
 
 %makeinstall
 
-install -d %{buildroot}%{_localstatedir}/%{name}
+install -d %{buildroot}%{_localstatedir}/lib/%{name}
 
 %clean
 rm -rf %{buildroot}
@@ -44,7 +44,7 @@ rm -rf %{buildroot}
 %defattr(-,root,root,0755)
 %doc ChangeLog COPYING INSTALL README
 %{_bindir}/%{name}
-%dir %{_localstatedir}/%{name}
+%dir %{_localstatedir}/lib/%{name}
 %{_mandir}/man1/%{name}.1*
 
 
