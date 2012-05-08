@@ -1,12 +1,12 @@
 Summary:	Process a web log file for visitor statistics
 Name:		visitors
 Version:	1.1
-Release:	%mkrel 8
+Release:	9
 License:	GPL
 Group:		File tools
 URL:		http://www.stedee.id.au/visitors
 Source:		http://www.stedee.id.au/files/%{name}-%{version}.tar.bz2
-BuildRequires:	db4-devel
+BuildRequires:	db-devel
 BuildRequires:	pcre-devel
 BuildRequires:	autoconf2.5
 BuildRequires:	libtool
