@@ -4,7 +4,7 @@ Version:	1.1
 Release:	10
 License:	GPL
 Group:		File tools
-URL:		http://www.stedee.id.au/visitors
+URL:		https://www.stedee.id.au/visitors
 Source:		http://www.stedee.id.au/files/%{name}-%{version}.tar.bz2
 BuildRequires:	db-devel
 BuildRequires:	pcre-devel
